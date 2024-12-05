@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+    border-radius: 5px;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #127EB8;
+    color: white;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 23px;
+    color: #127EB8;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.41);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .radio-group label {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-submit {
+    background-color: #127EB8;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0d69a1;
+  }
